@@ -1,0 +1,49 @@
+/* Write your CSS here */
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 34px solid #ffd569;
+    height: 90vh;
+}
+.main-heading{
+    color: #000000;
+    font-family: "Roboto";
+}
+.span{
+    color: #ffd569;
+}
+.inner-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+.img{
+    height: 300px;
+}
+.custom-btn{
+    margin-top: 34px;
+    background-color: #007bff;
+    color: white;
+    padding: 16px;
+    border: 0px;
+    border-radius: 12px;
+}
+.img-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+@media (max-width: 576px){
+    .inner-container{
+        flex-direction: column;
+    }
+    .img{
+        height: 170px;
+    }
+}
